@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p id="i1"></p>
+    <script>
+        //loopp : Loop is known as iteration : Loop is also known as repetation
+        //Looping means a task to be done again and again
+
+        var x;
+        //1 st : starting/initialization
+        //2 nd : condition
+        //3 rd : updation
+
+        /*
+        x = 1 : starting value/first expression
+        2
+        3
+        4
+        x = 5 : ending value
+        */
+
+        var s = "";
+        for (x = 1; x <= 5; x += 1) {
+            s = s + x + "<br>"//""+1 = "1" --> "1" + 2 --> "1"
+           
+        }
+        document.getElementById("i1").innerHTML = s;
+    </script>
+</body>
+
+</html>

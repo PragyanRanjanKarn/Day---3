@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var p1 = "Pragyan 7 6 * @ BiLaL"
+        document.write(p1.toUpperCase());
+        document.write("<br>");
+        document.write("<hr>");
+
+        document.write(p1.toLowerCase());
+        document.write("<br>");
+        document.write("<hr>");
+
+        document.write(p1.startsWith('PR'));
+        document.write("<br>");
+        document.write("<hr>");
+
+        document.write(p1.endsWith('aL'));
+        document.write("<br>");
+        document.write("<hr>");
+
+        var p2 = new RegExp("7 6");//RegExp is used to create pattern
+        var R = p2.test(p1);//searching p1 pattern
+        document.write(R);
+        document.write("<br>");
+        document.write("<hr>");
+
+        var p3 = new RegExp("aL");
+        var R1 = p3.test(p1);
+        document.write(R1);
+
+    </script>
+</body>
+
+</html>
